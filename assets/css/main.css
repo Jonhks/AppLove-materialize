@@ -39,7 +39,7 @@ nav{
 
 .imgs img{
   width: 100%;
-  line-height: 1px;;
+  line-height: 1px;
 }
 
 footer{
@@ -68,6 +68,12 @@ footer{
   font-size: .5em;
 }
 
+.tres{
+  width: 50%;
+  line-height: 1px;
+}
+
+
 @media screen and (max-width: 980px){
   .nav-wrapper{
   display: none;
@@ -76,3 +82,4 @@ footer{
     color: black;
   }
 }
+
