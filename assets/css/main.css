@@ -21,7 +21,7 @@ nav{
   color: white;
   background-image: url(../img/bg-home.jpg);
   background-size: cover;
-  height: 80vh;
+  height: 90vh;
   text-align: center;
   margin-bottom: 0;
 }
@@ -39,10 +39,40 @@ nav{
 
 .imgs img{
   width: 100%;
+  line-height: 1px;;
 }
 
 footer{
   background-color: #494949;
   width: 100%;
   height: 10vh;
+}
+
+.img-click:hover{
+  cursor: pointer;
+}
+
+.lap{
+  width: 100%;
+  height: 50vh;
+  background-image: url(../img/hero.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-principal{
+  font-size: .5em;
+}
+.text-secundario{
+  font-size: .5em;
+}
+
+@media screen and (max-width: 980px){
+  .nav-wrapper{
+  display: none;
+  }
+  .material-icons{
+    color: black;
+  }
 }

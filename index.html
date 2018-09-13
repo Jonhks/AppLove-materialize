@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
   <title>App Love Materialize</title>
 </head>
@@ -13,9 +14,9 @@
 <body>
   <div class="navbar-fixed">
     <nav>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <div class="nav-wrapper">
         <img src="assets/img/logo-r.png" class="brand-logo right" width="70px">
-        <!-- <a href="#" class="brand-logo right">Logo</a> -->
         <ul id="nav-mobile" class="left hide-on-med-and-down">
           <li><a class="logo" href="sass.html">SERVISES</a></li>
           <li><a class="logo" href="badges.html">WORK</a></li>
@@ -24,10 +25,28 @@
       </div>
     </nav>
   </div>  
+
+  <ul id="slide-out" class="sidenav">
+      <li><div class="user-view">
+        <div class="background">
+          <img src="images/office.jpg">
+        </div>
+        <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+        <a href="#name"><span class="white-text name">John Doe</span></a>
+        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+      </div></li>
+      <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+      <li><a href="#!">Second Link</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Subheader</a></li>
+      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
+          
   
 <div class="container-fluid">
+  
   <div class="row heart valign-wrapper">
-    <div class="col m12 ">
+    <div class="col s12 ">
         <h2>YOU JUST FOUND AN UNTILMATE</h2>
         <h1>We are applove from heart</h1>
         <p> HANDCRAFTED - MODERN DESIGN -PIXEL PERFECT -PASSIONED DESIGN</p>
@@ -37,94 +56,95 @@
 
 
   <div class="row services">
-    <div class="col m12">
+    <div class="col s12">
       <h2>Services</h2>
   <div class="row">
-    <div class="col m12 ">
+    <div class="col s12 ">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga reprehenderit eligendi adipisci,<br/>esse accusantium provident sint tenetur, laborum conmodi ad. eius dolore nunqui.</p>
     </div>
   </div>   
     </div>
     <div class="row">
-      <div class="col m4 we">
-          <img src="assets/img/website.png" alt="" width="200">
-          <h5>USER INTERFACE DESIGN</h5>
-          <h6>Wireframing</h6>
-          <h6>Prototyping</h6>
-          <h6>Usability testing</h6>
-      </div>
-      <div class="col m4 we">
-          <img src="assets/img/img-1.png" alt="" width="200">
-          <h5 >CONCEPT AND IDEAS</h5>
-          <h6>Conceptualization</h6>
-          <h6>Digital Branding</h6>
-          <h6>Product Strategy</h6>
-      </div>
-      <div class="col m4 we">
-          <img src="assets/img/lapiz.png" alt="" width="200">
-          <h5>DESIGN AND BRANDING</h5>
-          <h6>Interaction Design</h6>
-          <h6>Graphic Design</h6>
-          <h6>Identity Design</h6>
+      <div class="col s12 imgs">
+          <div class="col  s4 m4 ">
+              <img src="assets/img/website.png">
+              <h5 class="text-principal" >USER INTERFACE DESIGN</h5>
+              <h6 class="text-secundario">Wireframing</h6>
+              <h6 class="text-secundario">Prototyping</h6>
+              <h6 class="text-secundario">Usability testing</h6>
+          </div>
+          <div class="col  s4 m4 ">
+              <img src="assets/img/img-1.png">
+              <h5 class="text-principal">CONCEPT AND IDEAS</h5>
+              <h6 class="text-secundario">Conceptualization</h6>
+              <h6 class="text-secundario">Digital Branding</h6>
+              <h6 class="text-secundario">Product Strategy</h6>
+          </div>
+          <div class="col  s4 m4 ">
+              <img src="assets/img/lapiz.png">
+              <h5 class="text-principal">DESIGN AND BRANDING</h5>
+              <h6 class="text-secundario">Interaction Design</h6>
+              <h6 class="text-secundario">Graphic Design</h6>
+              <h6 class="text-secundario">Identity Design</h6>
+          </div>
       </div>
     </div>
   </div>
 
   <div class="row">
-    <div class="col m12 center-align">
+    <div class="col s12 center-align">
       <h2>work</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga reprehenderit eligendi adipisci,<br>
         esse accusantium provident sint tenetur, laborum commdi ad, eius dolore numqu.</p>
     <div class="row">
-      <div class="col m12">
+      <div class="col s12">
         <div class="lap">
-            <img src="assets/img/hero.png" width="940">
         </div>
       </div>
     </div>
     </div>  
   </div>
 <div class="row center-align">
-  <div class="col m12">
-      <div class="col m4 imgs">
-          <img src="assets/img/img-1.jpg">
-          <p class="text-uppercase">Nombre del Proyecto</p>
+  <div class="col s12">
+      <div href="#modal1" class="col m4 s12 imgs">
+          <img  src="assets/img/img-1.jpg" class="img-click" >
+          <p>Nombre del Proyecto</p>
       </div>
-      <div class="col m4 imgs">
-          <img src="assets/img/img-2.jpg">
-          <p class="text-uppercase">Nombre del Proyecto</p>
+      <div class="col m4 s12 imgs">
+          <img href="#modal1" src="assets/img/img-2.jpg" class="img-click" >
+          <p>Nombre del Proyecto</p>
       </div>
-      <div class="col m4 imgs">
-          <img src="assets/img/img-3.jpg">
-          <p class="text-uppercase">Nombre del Proyecto</p>
-      </div>
-  </div>
-  <div class="col m12">
-      <div class="col m4 imgs">
-          <img src="assets/img/img-4.jpg">
-          <p class="text-uppercase">Nombre del Proyecto</p>
-      </div>
-      <div class="col m4 imgs">
-          <img src="assets/img/img-5.jpg">
-          <p class="text-uppercase">Nombre del Proyecto</p>
-      </div>
-      <div class="col m4 imgs">
-          <img src="assets/img/img-6.jpg">
-          <p class="text-uppercase">Nombre del Proyecto</p>
+      <div class="col m4 s12 imgs">
+          <img href="#modal1" src="assets/img/img-3.jpg" class="img-click" >
+          <p>Nombre del Proyecto</p>
       </div>
   </div>
-  <div class="col m12">
-      <div class="col m4 imgs">
-          <img src="assets/img/img-7.jpg">
-          <p class="text-uppercase">Nombre del Proyecto</p>
+  <div class="col s12">
+      <div class="col m4 s12 imgs">
+          <img href="#modal1" src="assets/img/img-4.jpg" class="img-click" >
+          <p>Nombre del Proyecto</p>
       </div>
-      <div class="col m4 imgs">
-          <img src="assets/img/img-8.jpg">
-          <p class="text-uppercase">Nombre del Proyecto</p>
+      <div class="col m4 s12 imgs">
+          <img href="#modal1" src="assets/img/img-5.jpg" class="img-click" >
+          <p>Nombre del Proyecto</p>
       </div>
-      <div class="col m4 imgs">
-          <img src="assets/img/img-9.jpg">
-          <p class="text-uppercase">Nombre del Proyecto</p>
+      <div class="col m4 s12 imgs">
+          <img href="#modal1" src="assets/img/img-6.jpg" class="img-click" >
+          <p>Nombre del Proyecto</p>
+      </div>
+  </div>
+  <div class="col s12">
+      <div class="col m4 s12 imgs">
+          <img href="#modal1" src="assets/img/img-7.jpg" class="img-click" >
+          <p>Nombre del Proyecto</p>
+      </div>
+      <div class="col m4 s12 imgs">
+          <img href="#modal1" src="assets/img/img-8.jpg" class="img-click" >
+          <p>Nombre del Proyecto</p>
+      </div>
+      <div class="col m4 s12 imgs">
+          <img href="#modal1" src="assets/img/img-9.jpg" class="img-click" >
+          <p>Nombre del Proyecto</p>
       </div>
   </div>
 </div>
@@ -132,11 +152,30 @@
 <footer class="center-align valign-wrapper">
   @Muestra con <a href="https://materializecss.com/getting-started.html"> Materialize</a>
 </footer>
+
+<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+<!-- modal -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+
 </div><!-- cierre de container -->
+
+
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 
 </html>
