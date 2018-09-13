@@ -1,0 +1,48 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+.logo{
+  background-color: white;
+  color: black;
+  font-size: 1em;
+}
+
+nav{
+  background-color: white;
+  height: 13vh;
+  top: 0;
+}
+
+.heart{
+  color: white;
+  background-image: url(../img/bg-home.jpg);
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.heart h2{
+  font-size: 1.5em;
+}
+
+.services{
+  background-color: #F17C72;
+  text-align: center;
+  color: #fff;
+  height: 80vh;
+}
+
+.imgs img{
+  width: 100%;
+}
+
+footer{
+  background-color: #494949;
+  width: 100%;
+  height: 10vh;
+}
